@@ -1,23 +1,14 @@
 
+//Global
 "apiKey" = "260277456153440c973959dae0a124fb";
 
+//Category
 "ua" = "ua";
 
+//Date Formats
 "parse.dateFormat" = "yyyy-MM-dd'T'HH:mm:ssZ";
 "detail.dateFormat" = "d MMM yyyy HH:mm";
 
 //News feed VC
 "titleNewsFeed" = "News";
 "searchBarPlaceholder" = "Search News";
-
-"navigation.title.InviteNewContact" = "Invite new contact";
-
-"textField.info.enterEmailAddress" = "Enter e-mail address";
-
-"label.text.contactsFromYourMailAccount" = "Contacts from your mail accounts";
-
-"button.title.invite" = "Invite";
-
-"searchBar.text.search" = "Search";
-
-"error.text.maxEmailCount" = "Currently the maximum number of invite emails is one";

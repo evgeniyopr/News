@@ -159,24 +159,12 @@ struct R: Rswift.Validatable {
 
   /// This `R.string` struct is generated, and contains static references to 1 localization tables.
   struct string {
-    /// This `R.string.constans` struct is generated, and contains static references to 12 localization keys.
+    /// This `R.string.constans` struct is generated, and contains static references to 6 localization keys.
     struct constans {
       /// Value: 260277456153440c973959dae0a124fb
       static let apiKey = Rswift.StringResource(key: "apiKey", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
-      /// Value: Contacts from your mail accounts
-      static let labelTextContactsFromYourMailAccount = Rswift.StringResource(key: "label.text.contactsFromYourMailAccount", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
-      /// Value: Currently the maximum number of invite emails is one
-      static let errorTextMaxEmailCount = Rswift.StringResource(key: "error.text.maxEmailCount", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
-      /// Value: Enter e-mail address
-      static let textFieldInfoEnterEmailAddress = Rswift.StringResource(key: "textField.info.enterEmailAddress", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
-      /// Value: Invite
-      static let buttonTitleInvite = Rswift.StringResource(key: "button.title.invite", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
-      /// Value: Invite new contact
-      static let navigationTitleInviteNewContact = Rswift.StringResource(key: "navigation.title.InviteNewContact", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
       /// Value: News
       static let titleNewsFeed = Rswift.StringResource(key: "titleNewsFeed", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
-      /// Value: Search
-      static let searchBarTextSearch = Rswift.StringResource(key: "searchBar.text.search", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
       /// Value: Search News
       static let searchBarPlaceholder = Rswift.StringResource(key: "searchBarPlaceholder", tableName: "Constans", bundle: R.hostingBundle, locales: [], comment: nil)
       /// Value: d MMM yyyy HH:mm
@@ -199,71 +187,6 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("apiKey", tableName: "Constans", bundle: bundle, comment: "")
       }
 
-      /// Value: Contacts from your mail accounts
-      static func labelTextContactsFromYourMailAccount(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("label.text.contactsFromYourMailAccount", tableName: "Constans", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Constans", preferredLanguages: preferredLanguages) else {
-          return "label.text.contactsFromYourMailAccount"
-        }
-
-        return NSLocalizedString("label.text.contactsFromYourMailAccount", tableName: "Constans", bundle: bundle, comment: "")
-      }
-
-      /// Value: Currently the maximum number of invite emails is one
-      static func errorTextMaxEmailCount(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("error.text.maxEmailCount", tableName: "Constans", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Constans", preferredLanguages: preferredLanguages) else {
-          return "error.text.maxEmailCount"
-        }
-
-        return NSLocalizedString("error.text.maxEmailCount", tableName: "Constans", bundle: bundle, comment: "")
-      }
-
-      /// Value: Enter e-mail address
-      static func textFieldInfoEnterEmailAddress(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("textField.info.enterEmailAddress", tableName: "Constans", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Constans", preferredLanguages: preferredLanguages) else {
-          return "textField.info.enterEmailAddress"
-        }
-
-        return NSLocalizedString("textField.info.enterEmailAddress", tableName: "Constans", bundle: bundle, comment: "")
-      }
-
-      /// Value: Invite
-      static func buttonTitleInvite(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("button.title.invite", tableName: "Constans", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Constans", preferredLanguages: preferredLanguages) else {
-          return "button.title.invite"
-        }
-
-        return NSLocalizedString("button.title.invite", tableName: "Constans", bundle: bundle, comment: "")
-      }
-
-      /// Value: Invite new contact
-      static func navigationTitleInviteNewContact(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("navigation.title.InviteNewContact", tableName: "Constans", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Constans", preferredLanguages: preferredLanguages) else {
-          return "navigation.title.InviteNewContact"
-        }
-
-        return NSLocalizedString("navigation.title.InviteNewContact", tableName: "Constans", bundle: bundle, comment: "")
-      }
-
       /// Value: News
       static func titleNewsFeed(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
@@ -275,19 +198,6 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("titleNewsFeed", tableName: "Constans", bundle: bundle, comment: "")
-      }
-
-      /// Value: Search
-      static func searchBarTextSearch(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("searchBar.text.search", tableName: "Constans", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Constans", preferredLanguages: preferredLanguages) else {
-          return "searchBar.text.search"
-        }
-
-        return NSLocalizedString("searchBar.text.search", tableName: "Constans", bundle: bundle, comment: "")
       }
 
       /// Value: Search News

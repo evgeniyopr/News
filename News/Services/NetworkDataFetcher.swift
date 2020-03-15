@@ -21,8 +21,11 @@ struct NetworkDataFetcher: DataFetcher {
 	}
 	
 	func getNews(response: @escaping (NewsResponse?, Error?) -> Void) {
+		
 		let params = ["country": R.string.constans.ua()]
+		
 		networking.request(path: API.news, params: params) { (data, error) in
+			
 			if let error = error {
 				response(nil, error)
 			}
